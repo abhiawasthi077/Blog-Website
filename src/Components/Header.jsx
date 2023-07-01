@@ -1,0 +1,12 @@
+import React from 'react'
+
+const Header = () => {
+  return (
+    <div className='w-full border shadow-md py-4 top-0 bg-slate-200  fixed'>
+      <header className='text-center'>
+        <h1 className='text-xl font-bold uppercase'>Codehelp Blogs</h1>
+      </header>
+    </div>
+  )
+}
+export default Header
